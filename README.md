@@ -7,6 +7,14 @@
   <img src="not_smooth.gif" width="48%" alt="not_smooth.gif" />
 </p>
 
+## setup:
+```
+sudo chmod +x setup.sh
+```
+next:
+```
+./setup.sh
+```
 
 #### This script installs a smooth scrolling mouse driver/service on Linux. It creates a hidden folder named ".smooth_scroll" in the current directory, compiles a C++ program called smoothscroll, and sets it up as a systemd service so it runs automatically at boot.
 
