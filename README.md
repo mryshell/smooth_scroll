@@ -1,8 +1,8 @@
-### smooth_scroll
-Smooth scrolling for Linux
+# smooth_scroll
+*Smooth scrolling for Linux*
 
 
-This script installs a smooth scrolling mouse driver/service on Linux. It creates a hidden folder named ".smooth_scroll" in the current directory, compiles a C++ program called smoothscroll, and sets it up as a systemd service so it runs automatically at boot.
+#### This script installs a smooth scrolling mouse driver/service on Linux. It creates a hidden folder named ".smooth_scroll" in the current directory, compiles a C++ program called smoothscroll, and sets it up as a systemd service so it runs automatically at boot.
 
 ## WARNINGS:
 
@@ -58,3 +58,8 @@ sudo systemctl daemon-reload
 rm -rf .smooth_scroll
 ```
 
+---
+### telegram :
+```
+https://t.me/mry_shell
+```
